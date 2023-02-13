@@ -1,16 +1,15 @@
 import {
+    DetailedHTMLProps,
+    useCallback,
     useEffect,
     useRef,
     useState,
-    useCallback,
-    ReactHTMLElement,
-    DetailedHTMLProps,
 } from "react";
 
 import { useField } from "@unform/core";
 
-import { Container } from "./styles";
 import { IconType } from "react-icons";
+import { Container } from "./styles";
 
 type InputProps = DetailedHTMLProps<
     React.InputHTMLAttributes<HTMLInputElement>,
